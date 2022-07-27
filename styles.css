@@ -1,0 +1,183 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;;
+    text-align: center;
+    /* height: 100vh; */
+    
+}
+.topsection{
+    background-image: url("pakistan.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    
+    
+    
+    padding: 1px;
+    height: 500px;
+    
+    /* background-size: 100%;
+    height: 300px; */
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    
+    /* background: linear-gradient(to right,#183F84,#9D8D78); */
+
+    
+     
+     
+}
+.firstatag{
+    text-decoration: none;
+    color: black;
+    
+}
+.txtheader{
+    
+    border-radius: 20px;
+    color: white;
+    padding: 2px;
+    width: 400px;
+    background: linear-gradient(to right,#183F84,#9D8D78);
+    border-radius: 10px;
+    
+    
+}
+
+/* img {
+    width: 400px;
+} */
+.secdivmain{
+    background: linear-gradient(#0E2746,#C9B492);
+    /* background: #C9B492; */
+    height: 400px;
+    margin: 0;
+    padding: 1px;
+    color: white;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+
+
+}
+
+
+.secsubdiv{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    
+}
+
+#isl{
+    width: 150px;
+    border-radius: 50%;
+}
+#isl:hover{
+    width: 200px;
+    border-radius: 10%;}
+#karachi{
+    
+    width: 150px;
+    border-radius: 50%;
+}
+#karachi:hover{
+    width: 200px;
+    border-radius: 10%;}
+#lahore{
+    width: 150px;
+    border-radius: 50%;
+}
+#lahore:hover{
+    width: 200px;
+    border-radius: 10%;}
+.parag{
+    width: 200px;
+}
+
+
+
+
+
+.bottomdiv{
+    background: linear-gradient(#C9B492, #8D604F);
+    /* background: #AD9F82; */
+    margin:0;
+    padding:1px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+}
+#profile{
+    width: 150px;
+    border-radius: 20%;
+}
+#profile:hover{
+    width: 180px;
+    border-radius: 30%;
+    border: 2px solid black;
+}
+.bottom_sub{
+    width: 400px;
+    background: linear-gradient(to right,#FFDE58,#FFA951);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 5px solid #0249D3;
+}
+.bottom_sub:hover{
+    
+    background: linear-gradient(to right,#246ff9,#FFA951);
+    border-bottom: 5px solid #1ed302;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+#github{
+    width: 25px;
+   
+}
+#github:hover{
+    width: 40px;
+   
+}
+#twitter{
+    width: 25px;
+   
+}
+#twitter:hover{
+    width: 40px;
+   
+}
+#instagram{
+    width: 25px;
+   
+}
+#instagram:hover{
+    width: 40px;
+   
+}
